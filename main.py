@@ -56,7 +56,7 @@ print(values, dates)
 fig, ax = plt.subplots()
 ax.plot(dates, values)
 
-ax.set(xlabel='Date', ylabel='Particle Matter conc [µg/m³]',
+ax.set(xlabel='Date', ylabel='Particulate Matter conc [µg/m³]',
        title='Particle Matter conc Graz Ost Petersgasse')
 ax.grid()
 fig.autofmt_xdate()
