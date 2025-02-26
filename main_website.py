@@ -57,8 +57,8 @@ print(values, dates)
 fig, ax = plt.subplots()
 ax.plot(dates, values)
 
-ax.set(xlabel='Datum', ylabel='Feinstaubkonzentration [µg/m³]',
-       title='Feinstaubkonzentration Graz Ost Petersgasse')
+ax.set(xlabel='Date', ylabel='Particle matter concentration [µg/m³]',
+       title='Particle matter concentration in Graz Ost Petersgasse')
 ax.grid()
 fig.autofmt_xdate()
 plt.axhline(y=50.0, linewidth=4, color='r')
